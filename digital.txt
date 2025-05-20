@@ -26,4 +26,26 @@
   <script>
     // Firebase config: replace with your own project’s values
     const firebaseConfig = {
+ apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      appId: "YOUR_APP_ID"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="auth.js"></script>
+<div class="auth-container">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <label>Email:
+        <input type="email" id="registerEmail" required />
+      </label>
+      <label>Password:
+        <input type="password" id="registerPassword" required />
+      </label>
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
 
