@@ -109,4 +109,44 @@ body {
   color: #444;
 }
 
+.auth-container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 5px;
+}
 
+.auth-container button {
+  background-color: #0057b7;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #004099;
+}
+
+.auth-container p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.shiksha.com/mediadata/images/1740467675phpbA39mI.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    color: var(--light-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
